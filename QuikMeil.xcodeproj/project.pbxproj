@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86317BFB1C8FF9BB00CE4A68 /* QMConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86317BFA1C8FF9BB00CE4A68 /* QMConnectionManager.swift */; };
+		86BE6DFE1C8CCDCF0046502E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BE6DFD1C8CCDCF0046502E /* AppDelegate.swift */; };
+		86BE6E001C8CCDCF0046502E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BE6DFF1C8CCDCF0046502E /* Assets.xcassets */; };
+		86BE6E031C8CCDCF0046502E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86BE6E011C8CCDCF0046502E /* MainMenu.xib */; };
+		86BE6E101C8CCEB40046502E /* IRCClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BE6E0F1C8CCE750046502E /* IRCClient.framework */; };
+		86BE6E141C8CCEC60046502E /* IRCClient.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86BE6E0F1C8CCE750046502E /* IRCClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86BE6E0E1C8CCE750046502E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BE6E0A1C8CCE750046502E /* IRCClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86F2EFE61C21F73600B033A4;
+			remoteInfo = IRCClient;
+		};
+		86BE6E111C8CCEBA0046502E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BE6E0A1C8CCE750046502E /* IRCClient.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F2EFE51C21F73600B033A4;
+			remoteInfo = IRCClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86BE6E131C8CCEBE0046502E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				86BE6E141C8CCEC60046502E /* IRCClient.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86317BFA1C8FF9BB00CE4A68 /* QMConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QMConnectionManager.swift; sourceTree = "<group>"; };
+		86BE6DFA1C8CCDCF0046502E /* QuikMeil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuikMeil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BE6DFD1C8CCDCF0046502E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86BE6DFF1C8CCDCF0046502E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86BE6E021C8CCDCF0046502E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		86BE6E041C8CCDCF0046502E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BE6E0A1C8CCE750046502E /* IRCClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRCClient.xcodeproj; path = IRCClient/IRCClient.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86BE6DF71C8CCDCF0046502E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BE6E101C8CCEB40046502E /* IRCClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86BE6DF11C8CCDCF0046502E = {
+			isa = PBXGroup;
+			children = (
+				86BE6E0A1C8CCE750046502E /* IRCClient.xcodeproj */,
+				86BE6DFC1C8CCDCF0046502E /* QuikMeil */,
+				86BE6DFB1C8CCDCF0046502E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86BE6DFB1C8CCDCF0046502E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86BE6DFA1C8CCDCF0046502E /* QuikMeil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86BE6DFC1C8CCDCF0046502E /* QuikMeil */ = {
+			isa = PBXGroup;
+			children = (
+				86BE6DFD1C8CCDCF0046502E /* AppDelegate.swift */,
+				86BE6DFF1C8CCDCF0046502E /* Assets.xcassets */,
+				86BE6E011C8CCDCF0046502E /* MainMenu.xib */,
+				86BE6E041C8CCDCF0046502E /* Info.plist */,
+				86317BFA1C8FF9BB00CE4A68 /* QMConnectionManager.swift */,
+			);
+			path = QuikMeil;
+			sourceTree = "<group>";
+		};
+		86BE6E0B1C8CCE750046502E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86BE6E0F1C8CCE750046502E /* IRCClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86BE6DF91C8CCDCF0046502E /* QuikMeil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BE6E071C8CCDCF0046502E /* Build configuration list for PBXNativeTarget "QuikMeil" */;
+			buildPhases = (
+				86BE6DF61C8CCDCF0046502E /* Sources */,
+				86BE6DF71C8CCDCF0046502E /* Frameworks */,
+				86BE6DF81C8CCDCF0046502E /* Resources */,
+				86BE6E131C8CCEBE0046502E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BE6E121C8CCEBA0046502E /* PBXTargetDependency */,
+			);
+			name = QuikMeil;
+			productName = QuikMeil;
+			productReference = 86BE6DFA1C8CCDCF0046502E /* QuikMeil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86BE6DF21C8CCDCF0046502E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					86BE6DF91C8CCDCF0046502E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 86BE6DF51C8CCDCF0046502E /* Build configuration list for PBXProject "QuikMeil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86BE6DF11C8CCDCF0046502E;
+			productRefGroup = 86BE6DFB1C8CCDCF0046502E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 86BE6E0B1C8CCE750046502E /* Products */;
+					ProjectRef = 86BE6E0A1C8CCE750046502E /* IRCClient.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				86BE6DF91C8CCDCF0046502E /* QuikMeil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		86BE6E0F1C8CCE750046502E /* IRCClient.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRCClient.framework;
+			remoteRef = 86BE6E0E1C8CCE750046502E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86BE6DF81C8CCDCF0046502E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BE6E001C8CCDCF0046502E /* Assets.xcassets in Resources */,
+				86BE6E031C8CCDCF0046502E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86BE6DF61C8CCDCF0046502E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BE6DFE1C8CCDCF0046502E /* AppDelegate.swift in Sources */,
+				86317BFB1C8FF9BB00CE4A68 /* QMConnectionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86BE6E121C8CCEBA0046502E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRCClient;
+			targetProxy = 86BE6E111C8CCEBA0046502E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86BE6E011C8CCDCF0046502E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86BE6E021C8CCDCF0046502E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86BE6E051C8CCDCF0046502E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86BE6E061C8CCDCF0046502E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86BE6E081C8CCDCF0046502E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				INFOPLIST_FILE = QuikMeil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.obormot.QuikMeil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = IRCClient/IRCClient.h;
+			};
+			name = Debug;
+		};
+		86BE6E091C8CCDCF0046502E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/";
+				INFOPLIST_FILE = QuikMeil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.obormot.QuikMeil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = IRCClient/IRCClient.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86BE6DF51C8CCDCF0046502E /* Build configuration list for PBXProject "QuikMeil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BE6E051C8CCDCF0046502E /* Debug */,
+				86BE6E061C8CCDCF0046502E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BE6E071C8CCDCF0046502E /* Build configuration list for PBXNativeTarget "QuikMeil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BE6E081C8CCDCF0046502E /* Debug */,
+				86BE6E091C8CCDCF0046502E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86BE6DF21C8CCDCF0046502E /* Project object */;
+}
