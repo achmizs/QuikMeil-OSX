@@ -24,3 +24,5 @@ xcuserdata/
 *.ipa
 
 .DS_Store
+
+*~
